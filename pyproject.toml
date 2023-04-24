@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lxnet_reader"
+version = "0.0.1"
+authors = [
+  { name="lurchi70", email="hjleu@web.de" },
+]py -m pip install --upgrade build
+description = "Reads and interprets XML data from TECSON LX-NET device"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "defusedxml"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lurchi70/lxnet_reader_pypi_package"
+"Bug Tracker" = "https://github.com/Lurchi70/lxnet_reader_pypi_package/issues"
